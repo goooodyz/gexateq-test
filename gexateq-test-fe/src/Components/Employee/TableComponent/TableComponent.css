@@ -1,0 +1,41 @@
+.table-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 715px;
+    width: 50%;
+    overflow-y: auto;
+    border: 1px solid #dddddd;
+  }
+  
+  .scrollable-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .scrollable-table th,
+  .scrollable-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+    height: 40px;
+  }
+  
+  .scrollable-table th {
+    background-color: #a8a5a5;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 40px;
+  }
+  
+  .even-row {
+    background-color: #ffffff;
+  }
+  
+  .odd-row {
+    background-color: #eeeeee;
+  }
+
+  .selected-row {
+    background-color: #7cb6f8;
+  }

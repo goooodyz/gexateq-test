@@ -1,0 +1,15 @@
+.error-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,6 @@
+@gexateq_test_BE_HostAddress = http://localhost:5024
+
+GET {{gexateq_test_BE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
